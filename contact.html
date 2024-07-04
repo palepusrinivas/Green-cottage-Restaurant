@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header class="container p-2">
+      <nav class="navbar navbar-expand-sm">
+        <a href="" class="navbar-brand">
+            <img src="logo2.jpg" alt="">
+        </a>
+        <button class="navbar-toggler ms-5" type="" data-bs-target="#myNav" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="myNav" class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="Menu.html" class="nav-link">MENU</a>
+            </li>  <li class="nav-item">
+                <a href="gallery.html" class="nav-link">GALLERY</a>
+            </li>  <li class="nav-item">
+                <a href="about.html" class="nav-link">ABOUT</a>
+            </li>  <li class="nav-item">
+                <a href="contact.html" class="nav-link">CONTACT</a>
+            </li>
+        </ul>
+        </div>
+      </nav>  
+    </header>
+    <section class="container-fiuid p-5 bg5 text-center yes7 "> 
+        <div> <br><br><br><br><br><br><br><br> <br> <br> 
+            <h1 class=""><strong>CONTACT</strong></h1>
+            <br><br><br><br><br><br>
+        </div>
+    </section>
+    <section class="container-fiuid  p-5 yes22">
+      <div class="row text-center">
+         <div class="col-12 col-md-6 "> 
+          <h1 class="btn btn-danger text-center" >Reservation</h1>
+          <h2  class="text-center">Booking Tables</h2>
+          <div class="row">
+              <div class="col-12 col-md-6">    
+           <div class="">
+          <form action="Booking table" name="contact" onsubmit= " return Booking()">
+        <div class="form-floating">
+          <input type="text" name="username" id="username" class="form-control" placeholder=""/>
+          <label for="">username</label>
+        </div>
+        <p id="userNote"></p>
+        <div class="form-floating">
+          <input type="text" name="phonenumber" id="phonenumber" class="form-control" placeholder=""/>
+          <label for="">phonenumber</label>
+        </div> <p id="phoneNote"></p>
+         <div class="form-floating">
+          <input type="text" name="Email" id="Email" class="form-control" placeholder=""/>
+          <label for=""> Email</label>
+        </div>
+        <p id="EmailNote"></p> 
+        <div class="form-floating">
+          <input type="text" name="Date" id="Date" class="form-control" placeholder=""/>
+          <label for="">Date</label>
+        </div>
+        <p id="DateNote"></p> 
+          </form>
+           </div>
+              </div>
+              <div class="col-12 col-md-6">    
+                   <div class="">
+                  <form action="">
+                    <form action="">
+                      <div class="form-floating">, <select  input type="text" name="Time" id="Time" class="form-control" placeholder="" > 
+                         <option>11:00 AM</option> <option>12:00 PM</option> <option>1:00 PM</option> <option>2:00 PM</option> <option>3:00 PM</option>
+                         <option>4:00 PM</option> <option>7:00 PM</option> <option>8:00 PM</option> <option>9:00 PM</option> <option>10:00 PM</option>
+                         <option>11:00 PM</option>
+                      </select>
+                        <label for="">Time</label>
+                      </div>
+                      <div class="form-floating">   <select   input type="text" name="Persons" id="Persons" class="form-control" placeholder="" > 
+                        <option>1person</option> <option>2persons</option> <option>3persons</option> <option>4persons</option> <option>5persons</option>
+                        <option>6persons</option><option>8persons</option><option>10persons</option><option>12persons</option>
+                      </select>
+                        <label for="">Persons</label>
+                      </div>
+                 <p id="PersonsNote"></p> 
+                 <div class="form-floating">
+                  <input type="text" name="Month" id="Month" class="form-control" placeholder=""/>
+                  <label for="">Month</label>
+                </div> <p id="MonthNote"></p> 
+                 <div class="form-floating">
+                  <input type="text" name="Tables" id="Tables" class="form-control" placeholder=""/>
+                  <label for="">Tables</label>
+                </div> <p id="TablesNote"></p> 
+                  </form>
+                   </div>
+                      </div>
+          </div>
+          <button class="btn btn-outline-success text-center" onclick="Booking ()">Book Table</button>
+             </div>
+             <div class="col-12 col-md-6">
+                 <div class="row text-end">
+                     <div class="col-12 ">
+                         <img class="w-100" src="table.avif" alt="">
+                     </div>
+                 </div>
+             </div>
+             </div>
+              <script src="script.js"></script>
+          </section>
+            <section class="container p-5">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 col-lx-3">
+                   <h3 class=" ">LOCATION </h3>
+                   <p>floor,374 Green Restaurant Hyderabad</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-lx-3">
+                    <h3 class="IMG-ICON"> CALL US</h3>
+                      <p>(+91) 96 716 6879</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-lx-3">
+                    <h3 class="IMG-ICON"> OPENING HOURS</h3>
+                      <p>  09:30 AM – 11:00 PM</p>
+                      <p>Every Day</p>
+                </div>
+              </div>
+            </section>
+    <section class="container-fiuid p-5 yes33 yes4 yes5">
+        <div class="row">
+         <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <h2> CONTACT US</h2>
+                    <br>
+                    <h4> floor,374 Green Restaurant Hyderabad </h4>
+                      <h4>(91)9014132158</h4> <h4>palepusrinivas012@gmail.com</h4>
+                      <br><br><br><br>
+                      <h2>OPENING TIMES</h2>
+                      <br><h4> 09:30 AM-11:30 PM</h4><h4>Every Day</h4>
+                </div>   
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <h2>LATEST TWITTER</h2>
+                    <br>
+                    <h4>Activello is a good option. It has a slider built into that displays the featured image in the slider.</h4>
+                </div> 
+                <div class="col-12 col-md-6">
+                  <h2> GALLERY</h2>
+                  <br>
+                  <div class="row text-end div">
+                      <div class="col-12 col-md-6 col-lg-4 col-lx-3 ">
+                          <img class="w-100" src="rec1.png" alt="">
+                      </div>
+              
+                      <div class="col-12 col-md-6 col-lg-4 col-lx-3 ">
+                        <img class="w-100" src="Rectangle 2.png" alt="">
+                    </div><div class="col-12 col-md-6 col-lg-4 col-lx-3 ">
+                      <img class="w-100" src="Rectangle 6.png" alt="">
+                  </div><div class="col-12 col-md-6 col-lg-4 col-lx-3 ">
+                    <img class="w-100" src="Rectangle 3.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-lx-3 ">
+                  <img class="w-100" src="Rectangle 4.png" alt="">
+              </div><div class="col-12 col-md-6 col-lg-4 col-lx-3 ">
+                <img class="w-100" src="Rectangle 5.png" alt="">
+            </div>
+                  </div>
+              </div>  
+        </div>
+    
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
