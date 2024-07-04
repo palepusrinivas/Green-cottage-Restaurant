@@ -1,0 +1,93 @@
+.nav-link{
+    background-color: greenyellow;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 25px !important;
+}
+header{
+    border-bottom: 1px solid gray;
+}
+.bg{
+   background-image: url("menu3.jpg");
+}
+.bg1{
+    background-image: url("lunch.jpg");
+}
+.bg2{
+    background-image: url("dinner.jpg");
+}
+.bg3{
+    background-image: url("g.jpg");
+}
+.bg4{
+    background-image: url("ab.jpg");
+}
+.bg5{
+    background-image: url("ca1.jpg");
+}
+
+.yes {
+    background-image: url("restar.jpg");
+    
+}
+
+#OFFERS .card{
+    margin-bottom: 30px;
+    box-shadow: 2px 4px 5px 4px rgb(184, 188, 184);
+}
+.yes1 {
+    background-color: rgb(246, 251, 232);
+}
+.yes2 h2{
+    color: rgb(13, 188, 60);
+}
+.yes22 form input{
+    margin: 10px 5px;
+}
+.yes33 {
+    background-color: black;
+}
+.div  img{
+  margin: 10px;
+}
+.yes4  h2 {
+    color: white;
+}
+.yes5 h4{
+    color: white;
+}
+.yes7 h1{
+   color: white;
+}
+.meu h5:hover{
+    color: red;
+}
+.meu1 h2:hover{
+    color: red;
+}
+.yes8 img:hover{
+    width: 400px;
+    height: 300px;
+}
+.meu2 h3:hover{
+    color: red;
+}
+.div1 img {
+    margin-bottom: 20px;
+}
+.meu3 h3:hover{
+    color:white;
+    background-color: black;
+}
+.yes11{
+    background-color: rgb(246, 242, 242);
+}
+.yes44 h3{
+    color: red;
+}
+.btn22 img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68,77,136,0.2);
+}
